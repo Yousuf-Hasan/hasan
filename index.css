@@ -1,0 +1,21 @@
+.container {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px 20px;
+    padding: 50px;
+}
+.container > div {
+    background-color: rebeccapurple;
+    padding: 10px;
+    border:1px solid red ;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.one {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
