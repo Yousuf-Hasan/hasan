@@ -1,21 +1,56 @@
-.container {
-    background-color: blue;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 10px 20px;
-    padding: 50px;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(/photo12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(168, 165, 165);j */
+}   
+.main {
+    width: 350px;
+    background-color: transparent;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid black;
+    height: auto;
 }
-.container > div {
-    background-color: rebeccapurple;
-    padding: 10px;
-    border:1px solid red ;
-    text-align: center;
-    font-size: 50px;
+.one,.two {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    display: block;
+
+}
+.one > input,.two > input,button {
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px 8px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: transparent;
+}
+.three > input {
+    border: 1px solid black;
+    background-color: transparent;
+}
+.last  a {
+    text-decoration: none;
+    color: rgb(255, 250, 197);
+}
+.last  a:hover {
+    text-decoration: underline;
+}
+button:hover {
     color: white;
+    border: 1px solid white;
 }
-.one {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
+.one>input:hover, .two>input:hover {
+    color: white;
+    border: 1px solid white;
+
 }
