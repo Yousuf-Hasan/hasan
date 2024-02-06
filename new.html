@@ -7,35 +7,34 @@
     <link rel="stylesheet" href="new.css">
 </head>
 <body>
-    <div class="sidebar">
-        <ul>
-            <li><a class="one" href="#">Home</a></li>            
-            <li><a href="#">About us</a></li>            
-            <li><a href="#">Contact us</a></li>            
-            <li><a href="#">Blog</a></li>            
-            <li><a href="#">Servicess</a></li>     
-            <li><a class="two" href="#">Home</a></li> <!--one   -->        
-            <li><a href="#">About us</a></li>            
-            <li><a href="#">Contact us</a></li>            
-            <li><a href="#">Blog</a></li>            
-            <li><a href="#">Servicess</a></li>  
-            <li><a class="two" href="#">Home</a></li>        <!--two   -->      
-            <li><a href="#">About us</a></li>            
-            <li><a href="#">Contact us</a></li>            
-            <li><a href="#">Blog</a></li>            
-            <li><a href="#">Servicess</a></li>   
-            <li><a class="two" href="#">Home</a></li>           <!--three   -->   
-            <li><a href="#">About us</a></li>            
-            <li><a href="#">Contact us</a></li>            
-            <li><a href="#">Blog</a></li>            
-            <li><a href="#">Servicess</a></li>  
-            <li><a class="two" href="#">Home</a></li>             <!--four   --> 
-            <li><a href="#">About us</a></li>            
-            <li><a href="#">Contact us</a></li>            
-            <li><a href="#">Blog</a></li>            
-            <li><a href="#">Servicess</a></li>          
+<p id="khan"></p>
+    <img id="hasan1" src="photo1.jpeg" alt="Man" height="200px" width="200px">
+    <p id="hasan">My name is Yusuf Hasan.</p>
+    <p id="measure"></p>
+    <script>
+        let x, y;
+        x = 5;
+        y = 6;
+        z = x + y;
+         
+        document.getElementById('measure').innerHTML = 'The total value is =' + z ; //hasan ali has done it.
+        function hasan() {
+            document.getElementById('hasan1').style.display='block'; //Do yoe prefer it?
 
-        </ul>
-    </div>
+        }
+        function hello() {
+            document.getElementById('khan').innerHTML = "I'm Yusuf hasan.";
+        }
+        document.getElementById('hasan').innerHTML = 'Yusuf hasan is a smart boy.He knows how to manage a person.';
+    </script>
+    <button type="button" onclick="document.getElementById('hasan').innerHTML = 'A beautiful person'">To change it.</button>
+    <button type="button" onclick="document.getElementById('hasan1').src='photo.jpeg'">to see his picture</button>
+    <button onclick="document.getElementById('hasan1').style.display='none'">To hide</button>
+    <button onclick="hello()">Hello</button>
+    <button onclick="hasan()">To show</button>
+
+
+
+
 </body>
 </html>

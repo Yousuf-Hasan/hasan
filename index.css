@@ -17,7 +17,8 @@ body {
     box-sizing: border-box;
     margin: 0;
     border: 1px solid black;
-    height: auto;
+    height: auto
+    ;
 }
 .one,.two {
     width: 100%;
