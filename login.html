@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-image: url(/holy.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* width: 500px; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .main {
+            width: 250px;
+            height: 500px;
+            background-color: #f1f1f1;
+            padding: 10px 15px ;
+            border-radius: 10px;
+
+        }
+        h1,p {
+            text-align: center;
+        }
+        .one,.two {
+            width: 100%;
+            height: 50px;
+        }
+        .one > input , .two > input {
+            width: 100%;
+            padding: 5px 10px;
+            box-sizing: border-box;
+            border: none;
+            background-color: transparent;
+
+        }
+        button {
+            width: 100%;
+            padding: 5px 10px;
+            border-radius: 15px;
+            border: none;
+            background-color: purple;
+            color: white;
+            margin-top: 10px;
+
+        }
+        a {
+            color: black;
+            text-decoration: none;
+            text-align: right;
+            margin-bottom: 10px;
+        }
+       .three{
+            text-align: center;
+        }
+        label {
+            font-size: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <form action="">
+            <h1>Login</h1>
+            <div class="one">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder=" type your username">
+            
+            </div>
+            <hr>
+            <div class="two">
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="type your password">
+            </div>
+            <hr>
+            <a href="#">Forget password?</a>
+            <button>Log in</button>
+            <div class="three">
+                <p>or sign up using</p>
+                <i class='bx bxl-facebook-circle'></i>
+                <i class='bx bxl-twitter'></i>
+                <i class='bx bxl-google'></i>
+            </div>
+            <p>sing up</p>
+        </form>
+    </div>
+</body>
+</html>
