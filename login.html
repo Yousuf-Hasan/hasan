@@ -45,7 +45,7 @@
             background-color: transparent;
 
         }
-        button {
+        #button {
             width: 100%;
             padding: 5px 10px;
             border-radius: 15px;
@@ -53,6 +53,9 @@
             background-color: purple;
             color: white;
             margin-top: 10px;
+            display: block;
+            box-sizing: border-box;
+            text-align: center;
 
         }
         a {
@@ -63,6 +66,10 @@
         }
        .three{
             text-align: center;
+            cursor: pointer;
+        }
+        .three a i:hover {
+            color: red;
         }
         label {
             font-size: 15px;
@@ -76,22 +83,22 @@
             <h1>Login</h1>
             <div class="one">
                 <label for="email">Email</label>
-                <input type="email" name="email" placeholder=" type your username">
+                <input type="email" name="email" placeholder=" type your username" required>
             
             </div>
             <hr>
             <div class="two">
                 <label for="password">Password</label>
-                <input type="password" name="password" placeholder="type your password">
+                <input type="password" name="password" placeholder="type your password" required>
             </div>
             <hr>
             <a href="#">Forget password?</a>
-            <button>Log in</button>
+            <a id="button" href="1212.html" target="_blank">Log in</a>
             <div class="three">
                 <p>or sign up using</p>
-                <i class='bx bxl-facebook-circle'></i>
-                <i class='bx bxl-twitter'></i>
-                <i class='bx bxl-google'></i>
+                <a href="https://www.facebook.com/help/2053403608222571"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://help.twitter.com/en/using-x/post-and-moment-url"><i class='bx bxl-twitter'></i></a>
+                <a href="https://support.google.com/google-ads/answer/14095?hl=en"><i class='bx bxl-google'></i></a>
             </div>
             <p>sing up</p>
         </form>
