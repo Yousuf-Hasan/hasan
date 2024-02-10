@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* background-color: #212321; */
+    font-family: 'Poppins', sans-serif;
+}
+.hasan ul li {
+    display: inline-block;
+}
+.hasan ul li a {
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    color: #849a84;
+    transition: .4s;
+    cursor: pointer;
+}
+.hasan ul li a:hover:not(.one) {
+    color: white;
+}
+ .one span {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.hasan {
+    padding: 50px;
+    position: relative;
+    background-color: #212321;
+    /* padding-bottom: 100px;
+    padding-top: 100px; */
+
+
+
+}
+.two span {
+    background-color:#f1a63b ;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    right: 100px;
+    bottom: 10px;
+    transition: .4s;
+}
+.two span:hover {
+    /* color: white; */
+    opacity: 0.8;
+}
+.main {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* margin-top: 150px; */
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #212321;
+
+}
+.first p {
+    font-size: 80px;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 50px;
+    /* color: white; */
+    /* margin-top: 100px; */
+}
+.first h4 {
+    margin-left: 50px;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+  .second img  {
+    width: 25rem;
+    height: 25rem;
+    margin-right: 20px;
+    /* padding: 20px; */
+
+}
+p.more {
+    font-size: 25px;
+    font-weight: 200;
+}
+.more i {
+    border-radius: 50%;
+    border: 1px solid orange;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.main1 {
+    padding-top: 100px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    background-color: #212321;
+    padding-bottom: 100px;
+
+
+}
+.first1 , .second1 {
+    width: 50%;
+}
+.first1 P {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 30px;
+    margin-left: 50px;
+    color: white;
+
+}
+.second1 p {
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    /* margin-left: 50%; */
+}
+.first1 h3 {
+    color: orange;
+    margin-left: 50px;
+    padding: 30px;
+
+}
+.first1 a {
+    color: white;
+    margin-left: 50px;
+    border: 1px solid white;
+    padding: 30px 80px;
+    /* margin-top: 30px; */
+    position: relative;
+    top: 100px;
+    border-radius: 5px;
+    transition: .4s;
+
+}
+.first1 a:hover {
+    background-color: white;
+    color: black;
+}
+
+.first1 i {
+    position: relative;
+    top: 200px;
+    left: -200px;
+    font-size: 25px;
+    color: white;
+
+}
+.main2 {
+    display: flex;
+    margin-left: 50px;
+    padding: 100px 50px;
+    background-color: white;
+    /* color: white; */
+    /* justify-content: space-between; */
+}
+.first2,.second2  {
+    background-color: white;
+    width: 50%;
+
+}
+.second2 {
+    margin-left: 20px;
+}
+.first2 h3,.first2 p, .first2 a,.first2 h1 {
+    background-color: white;
+}
+.first2 h3 {
+    color: orange;
+    font-size: 25px;
+    font-weight: 300;
+}
+.first2 p {
+    font-size: 25px;
+    text-align: justify;
+    padding: 20px;
+}
+.first2 h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.second2 h1 {
+    color: orange;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.second2 p {
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.first2 a {
+    color: black;
+    margin-left: 50px;
+    border: 1px solid black;
+    padding: 30px 80px;
+    /* margin-top: 30px; */
+    position: relative;
+    top: 100px;
+    border-radius: 5px;
+    transition: .4s;
+
+}
+.main3 {
+    display: flex;
+    /* margin-left: 50px; */
+    padding: 100px 50px;
+    background-color: #fef6e6;
+}
+.first3 h3 {
+    color: orange;
+    margin-bottom: 10px;
+    font-size: 25px;
+
+}
+.first3 p {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 80px;
+    /* text-align: justify; */
+    padding: 20px;
+}
+.first3, .second3 {
+    width: 50%;
+}
+.second3 p {
+    font-size: 25px;
+    text-align: justify;
+    padding: 20px;
+    padding-top: 100px;
+}
+.main4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding:0 50px ;
+    background-color: #fef6e6;
+}
+.on {
+    padding: 30px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 50px;
+    transition: .4s;
+
+}
+.on:hover {
+    background-color: #fce3b5;
+}
+.main5 {
+    padding: 200px 50px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    background-color: #fef6e6;
+}
+.off {
+    padding: 20px;
+    font-size: 20px;
+}
+.off img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 10px;
+    float: left;
+    margin-right: 20px;
+}
+.how {
+    margin:  50px;
+   
+}
+/* main6*/
+.main6 {
+    padding: 200px 50px;
+    text-align: center;
+    display: flex;
+    /* display: grid; 
+    grid-template-columns: auto; */
+     justify-content: center;
+     align-items: center;
+     background-color: #212722;
+}
+.main6 h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.main6 p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.gt {
+    width: 50%;
+    text-align:  center;
+    color: white;
+    
+}
+.main6 a {
+    color: black;
+    padding: 30px ;
+    border: 1px solid black;
+    background-color: orange;
+    border-radius: 5px;
+    transition: .4s;
+    font-size: 20px;
+    margin-top: 50px;
+    display: block;
+    width: 300px;
+    text-align: center;
+    margin-left: 120px;
+}
+.main7 {
+    background-color: #212321;
+    color: white;
+    text-align: center;
+    padding:100px 25px 25px;
+
+}
+.main7 p {
+font-size: 80px;
+}
+.main8 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #212321;
+    color: white;
+}
+.last {
+    padding: 20px;
+}
+.last h3 {
+    color: orange;
+    padding: 10px;
+}
+.main9 {
+    background-color: #212321;
+    color: white;
+    display: grid;
+    grid-template-columns: 50% 20% 20%;
+}
+.last1 {
+    padding: 50px;
+}
+.last1 ul li {
+    list-style: none;
+
+}
+.last1 input {
+    padding:20px 50px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px;
+    /* color: #9f9a9a; */
+    border-radius: 5px;
+    border: none;
+    background-color: #454945;
+}
+.input {
+    padding: 0 50px;
+    background-color: orange;
+}
+.last2 {
+    background-color: #212321;
+}
+.last2 i {
+    /* padding: 10px; */
+    font-size: 30px;
+    color: white;
+    /* margin-left: 50px; */
+}
